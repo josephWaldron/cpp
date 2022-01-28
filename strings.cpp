@@ -3,8 +3,10 @@
 using namespace std;
 
 int main(){
-    string phrase = "text";
     cout << "hello\n";
     cout << "different line" << endl;
-    cout << phrase;
+
+    string phrase = "text";
+    cout << phrase.length() << endl;
+    cout << phrase[0];
 }
